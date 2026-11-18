@@ -1,0 +1,10 @@
+# The shop app answers these paths (it reads the address and shows the right screen):
+/shop       /index.html  200
+/shop/*     /index.html  200
+/search     /index.html  200
+/product/*  /index.html  200
+# These are real pages with their own HTML file (not the shop app):
+/about      /about.html     200
+/stores     /stores.html    200
+/contact    /contact.html   200
+/faq        /faq.html       200

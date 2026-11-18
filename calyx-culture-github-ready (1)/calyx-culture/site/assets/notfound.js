@@ -1,0 +1,1 @@
+(function(){var p=location.pathname+location.search;if(/^\/(shop|product|search|about|stores|contact|faq)(\/|$)/.test(location.pathname)&&!sessionStorage.getItem("rd")){sessionStorage.setItem("rd","1");location.replace("/?r="+encodeURIComponent(p))}})()

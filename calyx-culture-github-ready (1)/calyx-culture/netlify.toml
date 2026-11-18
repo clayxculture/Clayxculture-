@@ -1,0 +1,6 @@
+# Netlify reads this file when the repo is connected. No build step: the site is plain static files.
+[build]
+  publish = "site"
+
+# Security headers and the URL rewrites live in site/_headers and site/_redirects,
+# which Netlify and Cloudflare Pages both understand.

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /order/
+
+Sitemap: https://clayxculture.in/sitemap.xml
